@@ -15,7 +15,7 @@ DISCORD_CHANNEL_ID = 1531330918172852297          # integer, no quotes
 YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY")
 
 CHANNEL_1_ID = "UCmlD4znP15ddkfrNxRs5UeA"
-CHANNEL_2_ID = "UCipKAyrBv0p27-p81R2wufA"
+CHANNEL_2_ID = "UC2p0KNDP8EtSo66pUqByikg"
 
 CHANNEL_1_MSG = "🎉 Someone subscribed to **{channel_name}**! They now have **{new_count}** subscribers!"
 CHANNEL_2_MSG = "🔥 {channel_name} just got a new sub! Total: **{new_count}**"
