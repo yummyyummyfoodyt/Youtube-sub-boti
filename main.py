@@ -9,13 +9,13 @@ from flask import Flask
 # ============================================================
 #  CONFIGURATION – Replace with your real values
 # ============================================================
-DISCORD_BOT_TOKEN = "your_discord_bot_token_here"
-DISCORD_CHANNEL_ID = 123456789012345678          # integer, no quotes
+DISCORD_BOT_TOKEN = os.environ.get("DISCORD_BOT_TOKEN")
+DISCORD_CHANNEL_ID = 1531330918172852297          # integer, no quotes
 
-YOUTUBE_API_KEY = "your_youtube_api_key_here"
+YOUTUBE_API_KEY = "AIzaSyCSW0ACGtY4wzgrkTwublUzbb1zV0QxxEk"
 
-CHANNEL_1_ID = "UCxxxxxxxxxxxxxxxxxxxxxx"
-CHANNEL_2_ID = "UCyyyyyyyyyyyyyyyyyyyyyy"
+CHANNEL_1_ID = "UCmlD4znP15ddkfrNxRs5UeA"
+CHANNEL_2_ID = "UCipKAyrBv0p27-p81R2wufA"
 
 CHANNEL_1_MSG = "🎉 Someone subscribed to **{channel_name}**! They now have **{new_count}** subscribers!"
 CHANNEL_2_MSG = "🔥 {channel_name} just got a new sub! Total: **{new_count}**"
