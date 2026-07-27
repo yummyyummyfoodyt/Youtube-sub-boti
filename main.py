@@ -12,7 +12,7 @@ from flask import Flask
 DISCORD_BOT_TOKEN = os.environ.get("DISCORD_BOT_TOKEN")
 DISCORD_CHANNEL_ID = 1531330918172852297          # integer, no quotes
 
-YOUTUBE_API_KEY = "AIzaSyCSW0ACGtY4wzgrkTwublUzbb1zV0QxxEk"
+YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY")
 
 CHANNEL_1_ID = "UCmlD4znP15ddkfrNxRs5UeA"
 CHANNEL_2_ID = "UCipKAyrBv0p27-p81R2wufA"
